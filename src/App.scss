@@ -1,0 +1,53 @@
+/********** home page*********************/
+.home-page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    .table {
+        width: 100%;
+        .rt-thead {
+            min-width: 700px;
+            height: 50px;
+            text-align: center;
+            background-color: #07bdbe;
+            color: #fff;
+          }
+      }
+}
+/********** top bar *********************/
+
+.title {
+    padding: 14px 10px;
+    font-size: 20px;
+  }
+  
+  .MuiAppBar-colorPrimary {
+    color: #fff;
+    background-color: #07bdbe !important;
+    /* background: -webkit-linear-gradient(left, #2196f3, #18856f); */
+  }
+
+  .ReactTable .-pagination .-next , .-previous{
+    background-color: #07bdbe !important;
+    width: 100px;
+    border-radius: 10px;
+    flex: unset !important;
+  }
+  .ReactTable .-pagination .-btn {
+    font-size: 18px !important;
+    color: #fff !important;
+  }
+  
+  .ReactTable .rt-thead .rt-resizable-header-content {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* text-align: center; */
+    transform: translate(0%, 50%);
+  }
+  .open,
+.delete {
+  margin: 0px 14px;
+}
+.pagination-bottom{
+    margin-top: 20px;
+}

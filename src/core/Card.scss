@@ -1,0 +1,103 @@
+.user-detail {
+    min-width: 600px;
+    width: 75%;
+    margin: auto;
+    position: relative;
+    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+
+    .user-name {
+        padding: 10px;
+
+        .detail-label {
+            font-weight: bold;
+            width: 150px;
+            display: inline-block;
+            color: rgb(101, 86, 2);
+        }
+    }
+
+    .user-email {
+        padding: 10px;
+
+        .detail-label {
+            font-weight: bold;
+            width: 150px;
+            display: inline-block;
+            color: rgb(101, 86, 2);
+        }
+    }
+
+    .user-phone {
+        padding: 10px;
+
+        .detail-label {
+            font-weight: bold;
+            width: 150px;
+            display: inline-block;
+            color: rgb(101, 86, 2);
+        }
+    }
+
+    .user-username {
+        padding: 10px;
+
+        .detail-label {
+            font-weight: bold;
+            width: 150px;
+            display: inline-block;
+            color: rgb(101, 86, 2);
+        }
+    }
+
+    .user-website {
+        padding: 10px;
+
+        .detail-label {
+            font-weight: bold;
+            width: 150px;
+            display: inline-block;
+            color: rgb(101, 86, 2);
+        }
+
+        .user-data {
+            width: calc(100% - 150px);
+            display: inline-block;
+        }
+    }
+
+    .user-company {
+        padding: 10px;
+
+        .detail-label {
+            font-weight: bold;
+            width: 150px;
+            display: inline-block;
+            color: rgb(101, 86, 2);
+            transform: translate(0%, -100%);
+        }
+
+        .user-data-obj {
+            padding-top: 20px;
+            width: calc(100% - 150px);
+            display: inline-block;
+            position: relative;
+
+            .obj-detail {
+                padding: 5px 0px;
+
+                .obj-detail-label {
+                    font-weight: bold;
+                    width: 150px;
+                    display: inline-block;
+                    color: #026565;
+                }
+
+                .obj-detail-data {
+                    width: calc(100% - 150px);
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}

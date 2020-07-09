@@ -1,0 +1,101 @@
+/*************************** for scss app color variable **************************/
+$app-default-background:-webkit-linear-gradient(left, #2196f3, #07bdbe);
+
+/* for text color  */
+$app-default-text-color:#07bdbe;
+$app-default-text-black-color-dark:#4c4c4c;
+$app-default-text-black-color-medium: #888888;
+$app-default-text-black-color-light: #cfcfcf;
+$app-default-text-white-color: #fff;
+$app-default-text-blue-color:#2196f3;
+$app-default-text-post-title-name:#026565;
+
+/* for input field -text field/text area/select field/searchable dropdown text color  */
+$app-default-input-field-text-color:#4c4c4c;
+$app-default-input-field-placeholder-color:#cfcfcf;
+
+/* for icon specific color  */
+$app-default-icon-black-color-dark:#5d5d5d;
+$app-default-icon-black-color-medium:#8c8a8a;
+$app-default-icon-black-color-light:#ccc;
+$app-default-icon-blue-color:#2196f3;
+$app-default-icon-white-color:#fff;
+
+/* for page or sections background color  */
+$app-default-background-white-color: #fff;
+$app-default-background-black-color: #f5f5f5;
+
+/* for scroll bar and scroll background color  */
+$app-default-scroll-bar-background-color: #F5F5F5;
+$app-default-scroll-bar-color: #afafaf;
+
+/* for border  color  */
+$app-default-border-color: #eaeaea;
+$app-default-border-dark-color: #d0d0d0;
+/* for button background   color  */
+
+$app-default-button-background-turquoise-color:#07bdbe;
+
+/* for mandatory fields  color  */
+$app-default-required-field-color:#ff6c5f;
+/* for alert box color  */
+$app-default-alert-warning-color:#ff6c5f;
+$app-default-alert-success-color:#25bfa1;
+$app-default-alert-confirmation-color:#25bfa1;
+/* for showing hyperlink  color  */
+$app-default-text-hyperlink-color:#2196f3;
+/* for showing toggle sepcific  color  */
+
+$app-default-toggle-active-round-color:#40bc40;
+$app-default-toggle-active-line-color:#caefca;
+
+$app-default-toggle-inactive-line-color:#eeeeee;
+$app-default-toggle-inactive-round-color:#cccccc;
+/* for showing divider   */
+$app-default-divider-color:#cccccc;
+
+/* for showing module sepcific  color  */
+$app-default-message-green-color:#8cc15d;
+$app-default-students-blue-color:#28cde8;
+$app-default-moments-color:#9492ea;
+$app-default-daily-routine-color:#FACC2E;
+
+//******************************************Student-in-out color****************************
+$app-default-student-in-color:#07bdbe;
+$app-default-student-out-color:#f78b08;
+
+$app-default-student-absent-color:#ff6c5f;
+$app-default-student-present-color:#8cc15d;
+
+$app-default-user-active-color:#00A447;
+html{
+    height: 100%;
+/*properties added for preventing user selection of text in the app */
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+     user-select: none;
+}
+
+html,body {
+  $min_width: 0px;
+  $max_width: 1200px;
+  $min_font: 10px;
+  $max_font: 12px;
+@include fluid-type($min_width, $max_width, $min_font, $max_font);
+ }
+ *::-webkit-scrollbar
+ {
+   width: 5px;
+   background-color: $app-default-scroll-bar-background-color;
+ }
+ *{
+   -webkit-overflow-scrolling: touch; 
+ -webkit-tap-highlight-color: transparent;
+ 
+ }
+
+ @import '../layout/UserDetail.scss';
+ @import '../core/Card.scss';
+ @import '../App.scss';
